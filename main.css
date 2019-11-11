@@ -19,7 +19,7 @@ body{
 }
 
 section{
-    padding: 6rem 0;
+    padding: 5rem 0;
 }
 
 a{
@@ -267,6 +267,11 @@ li{
     margin-right: 5rem;
 }
 
+.profile img{
+    width: 80%;
+    margin-left: 5rem;
+}
+
 .about-info{
     flex: 1;
 }
@@ -288,8 +293,16 @@ li{
     color: #38a1f3;
 }
 
-.fa-dribbble-square:hover{
-    color: #ea4c89;
+.fa-github-square:hover{
+    color: #686667;
+}
+
+.fa-instagram:hover{
+    color: #e973ae;
+}
+
+.fa-linkedin:hover{
+    color: #2867b2;
 }
 /*End about*/
 
@@ -333,6 +346,11 @@ li{
     transform: rotate(-45deg);
 }
 
+.skill li{
+    font-size: 1.3rem;
+    font-family: 300;
+}
+
 /*End services*/
 
 /*Start portfolio*/
@@ -352,8 +370,19 @@ li{
     flex: 1;
 }
 
+.snake img{
+    width: 80%;
+    margin-left: 10rem;
+}
+
+.hacking img{
+    height: 40rem;
+    padding-right: 15rem;
+}
+
 .portfolio-des{
     flex: 1;
+    margin-right: 7rem;
 }
 
 .portfolio-des h1{
@@ -382,7 +411,38 @@ li{
     color: #2f67cd;
 }
 
-/*End services*/
+.hacking-des{
+    flex: 1;
+    margin-left: 15rem;
+}
+
+.hacking-des h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.hacking-des h6{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.3;
+}
+
+.hacking-des .cta{
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #3883ff;
+    transition: color 650ms;
+}
+
+.hacking-des .cta:hover{
+    color: #2f67cd;
+}
+
+/*End portfolio*/
 
 /*Start timeline*/
 
